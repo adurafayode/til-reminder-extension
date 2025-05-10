@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Today I Learned</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Today I Learned</h1>
+        <div class="streak-counter">
+          Streak: <span id="streak-count">0</span> days
+        </div>
+      </div>
+
+      <form id="til-form">
+        <div class="input-container">
+          <textarea
+            id="til-input"
+            rows="3"
+            placeholder="What did you learn today?"
+          ></textarea>
+          <div class="char-count">
+            <span id="char-count">0/280</span>
+          </div>
+        </div>
+        <button type="submit" class="save-button">Save Learning</button>
+      </form>
+
+      <div class="entries-section">
+        <div class="entries-header">
+          <h2>Today's Entries</h2>
+          <span id="entries-count">0 entries</span>
+        </div>
+        <div id="til-list" class="entries-list"></div>
+      </div>
+    </div>
+
+    <template id="entry-template">
+      <div class="entry">
+        <p class="entry-text"></p>
+        <button class="delete-entry">
+          <svg viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </template>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
