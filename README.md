@@ -1,5 +1,13 @@
 # Today I Learned - Chrome Extension
 
+> This repository was created as a learning resource for the "VIBE CODING: How Your Mood Shapes Your Code" session at the AI Knowledge Series (May 10, 2025). It demonstrates how to effectively use AI to build a Chrome extension through structured prompting and iterative development.
+
+> **Looking for the complete solution?** Check out the `complete-solution` branch after trying to build it yourself:
+>
+> ```bash
+> git checkout complete-solution
+> ```
+
 A Chrome extension that helps you track daily learnings with reminders and streak tracking.
 
 ## Extension Properties
@@ -14,14 +22,19 @@ A Chrome extension that helps you track daily learnings with reminders and strea
 
 ### Before You Start
 
-1. Clone this repository:
+1. Fork this repository:
+
+   - Click the "Fork" button at the top right of this page
+   - This creates your own copy of the repository that you can modify
+
+2. Clone your forked repository:
 
 ```bash
-git clone https://github.com/adurafayode/til-reminder-extension.git
+git clone https://github.com/YOUR_USERNAME/til-reminder-extension.git
 cd til-reminder-extension
 ```
 
-2. Create the project structure:
+3. Create the project structure:
 
 ```bash
 mkdir icons
@@ -41,7 +54,7 @@ til-reminder-extension/
 └── README.md         # This file
 ```
 
-3. Requirements:
+4. Requirements:
 
 - Chrome browser installed
 - Text editor of your choice
@@ -148,15 +161,5 @@ If you get stuck, try these prompts:
 - "Can you explain how [feature] works?"
 - "I got this error: [error message]. How do I fix it?"
 - "Can you help me modify [feature] to work like [description]?"
-
-### Reference Solution
-
-If you want to see the complete working solution, you can check out the `complete-solution` branch:
-
-```bash
-git checkout complete-solution
-```
-
-Note: Try to build the extension yourself first! The solution branch is there as a reference if you get stuck.
 
 Total build time: About 90 minutes
