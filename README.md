@@ -1,5 +1,9 @@
 # Today I Learned - Chrome Extension
 
+A Chrome extension that helps you track daily learnings with reminders and streak tracking.
+
+---
+
 > This repository was created as a learning resource for the "VIBE CODING: How Your Mood Shapes Your Code" session at the AI Knowledge Series (May 10, 2025). It demonstrates how to effectively use AI to build a Chrome extension through structured prompting and iterative development.
 
 > **Looking for the complete solution?** Check out the `complete-solution` branch after trying to build it yourself:
@@ -7,8 +11,6 @@
 > ```bash
 > git checkout complete-solution
 > ```
-
-A Chrome extension that helps you track daily learnings with reminders and streak tracking.
 
 ## Extension Properties
 
